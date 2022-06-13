@@ -14,3 +14,23 @@
     padding: 5px;
     margin-left: 20px;
 }
+
+.kobeImage{
+    margin-top: 10rem;
+    margin-left: 7rem;
+    /* background-color: red; */
+    width: 334px;
+    height: 474px;
+    animation: fadeIn 0.8s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
